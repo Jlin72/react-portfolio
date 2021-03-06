@@ -1,7 +1,8 @@
 import {createContext} from 'react';
 
 const Context = createContext({
-  active: 'active'
+  src: '',
+  alt: ''
 });
 
 export default Context;

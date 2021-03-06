@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 // import Context from '../Util/Context';
-import Navbar from '../components/Navbar';
-import Wrapper from '../components/Wrapper/Wrapper';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import PortfolioBody from '../components/PorfolioBody/PortfolioBody';
 const Portfolio = () => {
   // const [context, setContext] = useState(Context);
   return (
-    // <Context.Provider value={context}>
-    <Wrapper>
-      <p>No</p>
-    </Wrapper>
-    // </Context.Provider>
+    <div>
+      <Navbar />
+      <PortfolioBody />
+      <Footer />
+    </div>
   );
 }
 
