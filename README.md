@@ -25,7 +25,7 @@
   Portfolio still looks and feel clunky, more features to be added on the future.
 ## Screenshots or video
     Screenshot of the portfolio on the browser:
-  ![Portfolio](https://i.imgur.com/odksMiX.png)
+  ![Portfolio](https://i.imgur.com/43MXfYQ.png)
 ## Credits
   Made by: Jhonny Lin (Github: Jlin72 https://github.com/Jlin72)
 ## License
