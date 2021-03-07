@@ -3,7 +3,7 @@ import {Card} from 'react-bootstrap'
 
 const ContactBody = () => {
   return (
-    <div className='contactform'>
+    <article className='contactform'>
       <Card className='Cardbackground'>
           <Card.Header>
             <Card.Title >Contact me</Card.Title>
@@ -22,7 +22,7 @@ const ContactBody = () => {
             </form>
           </Card.Body>
       </Card>
-    </div>
+    </article>
   )
 }
 

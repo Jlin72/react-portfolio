@@ -12,7 +12,7 @@ const ResumeCard = () => {
   const handleShow = () => setShow(true);
 
   return(
-    <div style={{marginTop: '15px'}}>
+    <article style={{marginTop: '15px'}}>
       <div className='card Cardbackground'>
         <img src={resumeIMGSrc} className='card-img-top' alt='Resume' onClick={handleShow} />
         <div className='card-body'>
@@ -44,7 +44,7 @@ const ResumeCard = () => {
             <a href={resumePDFSrc} download><Button variant='primary'>Download</Button></a>
           </Modal.Footer>
       </Modal>
-    </div>
+    </article>
   )
 }
 

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Card, Modal} from 'react-bootstrap';
 
-const ImageCards = ({src1, alt1, src2, alt2, title1, title2, description1, description2, repository1, repository2, deployed1, deployed2}) => {
+const Project = ({src1, alt1, src2, alt2, title1, title2, description1, description2, repository1, repository2, deployed1, deployed2}) => {
   const [show1, setShow1] = useState(false);
 
   const handleClose1 = ()  => setShow1(false);
@@ -64,4 +64,4 @@ const ImageCards = ({src1, alt1, src2, alt2, title1, title2, description1, descr
   
 }
 
-export default ImageCards;
+export default Project;
