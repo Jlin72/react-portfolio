@@ -9,15 +9,15 @@ const IndexBody = () => {
 
   //eslint-disable-next-line
   const [indexInfo, setIndexInfo] = useState({
-    src:'/img/profile.jpg',
+    src: process.env.PUBLIC_URL+'/img/profile.jpg',
     alt: 'profile picture',
     className: 'indexImg',
     resumePDFSrc: resumeSrc,
-    resumeIMGSrc: '/img/Resume.jpg'
+    resumeIMGSrc: process.env.PUBLIC_URL+'/img/Resume.jpg'
   })
 
   return(
-    <div>
+    <div style={{marginBottom: '5%'}}>
       <Wrapper>
         <IndexContext.Provider value={indexInfo} >
           <About />

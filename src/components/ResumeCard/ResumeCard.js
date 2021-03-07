@@ -12,7 +12,7 @@ const ResumeCard = () => {
   const handleShow = () => setShow(true);
 
   return(
-    <article style={{marginTop: '15px'}}>
+    <article style={{marginTop:'10px'}}>
       <div className='card Cardbackground'>
         <img src={resumeIMGSrc} className='card-img-top' alt='Resume' onClick={handleShow} />
         <div className='card-body'>
@@ -32,10 +32,10 @@ const ResumeCard = () => {
         <Modal.Body>
             <Carousel classItem='carousel-dark slide'>
               <Carousel.Item>
-                <img className='d-block w-100' src='/img/Resume_screenshot1.png' alt='Resume first page' />
+                <img className='d-block w-100' src={process.env.PUBLIC_URL+'/img/Resume_screenshot1.png'} alt='Resume first page' />
               </Carousel.Item>
               <Carousel.Item>
-                <img className='d-block w-100' src='/img/Resume_screenshot2.png' alt='Resume second page' />
+                <img className='d-block w-100' src={process.env.PUBLIC_URL+'/img/Resume_screenshot2.png'} alt='Resume second page' />
               </Carousel.Item>
             </Carousel>
         </Modal.Body>

@@ -7,10 +7,10 @@ const Navbar = () => {
   // const {active} = useContext(Context);
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-custom">
+      <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
         <Link to='/' className='navbar-brand'>Jhonny Lin</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className='navbar-nav mr-auto'>
