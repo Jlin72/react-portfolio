@@ -5,7 +5,7 @@ import ImageCard from '../imageCard/ImageCard';
 const PortfolioCards = () => {
   return(
     <div className='row'>
-      <Card style={{margin: '40px 0 80px 60px'}}>
+      <Card style={{margin: '40px 0 80px 60px'}} className='Cardbackground'>
         <Card.Title style={{margin: '25px 10px 15px 10px', borderBottom: '3px solid black'}}>Portfolio</Card.Title>
         <Card.Body>
           <h5>Click on the images to get more information about the project</h5>

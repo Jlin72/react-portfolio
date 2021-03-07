@@ -15,7 +15,7 @@ const ImageCards = ({src1, alt1, src2, alt2, title1, title2, description1, descr
   return(
     <div>
       <div className='col-md-6' style={{marginBottom: '20px'}}>
-        <Card style={{width: '18rem'}}>
+        <Card style={{width: '18rem'}} className='portfolioCard'>
           <Card.Img variant='top' src={src1} alt={alt1} onClick={handleShow1} style={{width: '100%', height: '250px', borderBottom: '1px solid black'}} />
           <Card.Body>
             <Card.Title>{title1}</Card.Title>
@@ -23,7 +23,7 @@ const ImageCards = ({src1, alt1, src2, alt2, title1, title2, description1, descr
         </Card>
       </div>
       <div className='col-md-6'>
-        <Card style={{width: '18rem'}}>
+        <Card style={{width: '18rem'}} className='portfolioCard'>
           <Card.Img variant='top' src={src2} alt={alt2} onClick={handleShow2} style={{width: '100%', height: '250px', borderBottom: '1px solid black'}} />
           <Card.Body>
             <Card.Title>{title2}</Card.Title>

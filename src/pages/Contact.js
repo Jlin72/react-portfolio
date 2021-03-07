@@ -1,17 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import Context from '../Util/Context';
 import Navbar from '../components/Navbar/Navbar';
-import Wrapper from '../components/Wrapper/Wrapper';
+import Footer from '../components/Footer/Footer';
+import ContactBody from '../components/ConctactBody/ContactBody';
 
 const Contact = () => {
   // const [context, setContext] = useState(Context);
   console.log(window.location.pathname)
   return (
-    // <Context.Provider value={context}>
-    <Wrapper>
-      <p>No</p>
-    </Wrapper>
-    // </Context.Provider>
+    <>
+    <Navbar />
+    <ContactBody />
+    <Footer />
+    </>
   );
 }
 

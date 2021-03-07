@@ -5,7 +5,7 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 
 const About = () => {
   return(
-    <article className="row">
+    <article className="row" style={{marginTop: '5%'}}>
       <div className='col-md-9'>
         <AboutCard />
       </div>

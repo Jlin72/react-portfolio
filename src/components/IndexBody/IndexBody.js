@@ -19,7 +19,6 @@ const IndexBody = () => {
   return(
     <div>
       <Wrapper>
-        <Banner />
         <IndexContext.Provider value={indexInfo} >
           <About />
         </IndexContext.Provider>

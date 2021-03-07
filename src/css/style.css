@@ -1,5 +1,18 @@
+body {
+  background-color: grey;
+}
+
 .navTextColor{
   color: white;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: White; 
+} 
+
+.navbar-custom {
+  background-color: slategrey;
 }
 
 .AboutTitle{
@@ -30,7 +43,7 @@
 }
 
 .aboutCard{
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .carousel-indicators li {
@@ -63,8 +76,21 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: turquoise;
+  background-color: slategrey;
   color: white;
   text-align: center;
   padding-top: 10px;
+}
+
+.Cardbackground {
+  background-color: lightsteelblue;
+}
+
+.portfolioCard {
+  background-color: darkgrey;
+}
+
+.contactform {
+  margin: 8% auto;
+  width: 70%;
 }

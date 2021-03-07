@@ -12,11 +12,11 @@ const ResumeCard = () => {
   const handleShow = () => setShow(true);
 
   return(
-    <div>
-      <div className='card'>
+    <div style={{marginTop: '15px'}}>
+      <div className='card Cardbackground'>
         <img src={resumeIMGSrc} className='card-img-top' alt='Resume' onClick={handleShow} />
         <div className='card-body'>
-          <h5 className='card-title'>Resume</h5>
+          <h5 className='card-title' style={{borderBottom: '1px solid black'}}>Resume</h5>
           <p className="card-text">Click on the image to see the complete resume or click on download to download it</p>
           <a href={resumePDFSrc} download className="btn btn-primary">Download</a>
         </div>

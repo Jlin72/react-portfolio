@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Wrapper = ({children}) => {
   return(
-    <div className="container">
+    <div className="container wrapper">
         {children}
     </div>
   )

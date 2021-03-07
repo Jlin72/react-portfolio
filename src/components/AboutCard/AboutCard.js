@@ -3,7 +3,7 @@ import Image from '../Image/Image';
 
 const AboutCard = () => {
   return (
-    <div className="card aboutCard">
+    <div className="card aboutCard Cardbackground">
           <div className="card-body">
             <h3 className="AboutTitle card-title">About me </h3> 
             <div className="row">
